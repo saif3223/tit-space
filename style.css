@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300&display=swap')
+
+:root{
+    --pale-blue: hsl(225, 100%, 94%);
+    --bright-blue: hsl(245,75%,52%);
+    --very-pale-blue: hsl(225,100%,98%);
+    --desaturated-blue: hsl(224, 23% ,55%);
+    --dark-blue: hsl(223, 47%, 23%);
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url(./images/secback.jpeg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    font-size:16px;
+    font-family: "Red Hat Display", sans-serif;
+}
+.card{
+    width: 450px;
+    background-color: white;
+    color: var(--desaturated-blue);
+    border-radius:20px;
+    overflow: hidden;
+    margin:50px auto;
+}
+.title{
+    color: var(--dark-blue);
+    font-weight: 900;
+    font-size: 32px;
+}
+.tit-logo{
+    width: 100%;
+    margin: 20px,20px;
+}
+.container{
+    padding:30px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    text-align: center;
+    font-size: 18px;
+    
+}
+.container > *{
+    margin: 13px 0;
+}
+.description{
+    line-height: 25px;
+}
+
+
+
+.proceed-button {
+    background-color: blue;
+    padding: 1rem 0;
+    color: white;
+    box-shadow: 0 20px 30px -8px rgb(197 189 245);
+    width: 100%;
+    border: none;
+    font-weight:700;
+    cursor: pointer;
+    font-size:0.9rem;
+    border-radius:12px;
+    margin-top: 30px ;
+
+}
+  .proceed-button:hover{
+    color: black;
+    
+}
